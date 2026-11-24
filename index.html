@@ -306,7 +306,7 @@ input:focus,select:focus,textarea:focus{border-color:var(--gold);outline:none}.c
     </div>
   </section>
 </main>
-<footer><div class="wrap">© 2026 <span class="fa">رویای سبز</span><span class="en">Royaye Sabz</span><a class="adminlink" href="#admin"><span class="fa">مدیریت</span><span class="en">Admin</span></a></div></footer>
+<footer><div class="wrap">© 2026 <span class="fa">رویای سبز</span><span class="en">Royaye Sabz</span></div></footer>
 
 <script type="application/json" id="seed">[
  {
@@ -496,8 +496,8 @@ function fillType(){var d=$('fdeal').value;$('ftype').innerHTML=Object.keys(TYPE
 function renderAdmin(){
  var el=$('admin');
  if(!A.mode){
-  el.innerHTML='<div class="alogin"><h2 class="disp">'+T('ورود مدیر','Admin login')+'</h2><p class="lead">'+T('فقط شما با توکن GitHub می‌توانید وارد شوید. توکن مثل رمز عبور است و فقط روی همین دستگاه می‌ماند.','Only you can sign in, with your GitHub token. It works like a password and stays on this device only.')+'</p>'+fld('arepo',T('مخزن GitHub','GitHub repository'),inp('arepo','text','dir="ltr" placeholder="USERNAME/royayesabz" value="'+esc(A.repo)+'"'))+fld('atoken',T('توکن دسترسی','Access token'),inp('atoken','password','dir="ltr" autocomplete="off" value="'+esc(A.token)+'"'))+'<label class="chk"><input type="checkbox" id="aremember" checked> '+T('مرا در این دستگاه به خاطر بسپار','Remember me on this device')+'</label><div class="arow2"><button class="btn" id="alogin" type="button">'+T('ورود','Log in')+'</button><button class="btn ghost2" id="ademo" type="button">'+T('حالت نمایشی','Demo mode')+'</button></div><p class="anote" id="anote"></p></div>';
-  $('ademo').onclick=function(){A.mode='demo';renderAdmin();};
+  el.innerHTML='<div class="alogin"><h2 class="disp">'+T('ورود مدیر','Admin login')+'</h2><p class="lead">'+T('فقط شما با توکن GitHub می‌توانید وارد شوید. توکن مثل رمز عبور است و فقط روی همین دستگاه می‌ماند.','Only you can sign in, with your GitHub token. It works like a password and stays on this device only.')+'</p>'+fld('arepo',T('مخزن GitHub','GitHub repository'),inp('arepo','text','dir="ltr" placeholder="USERNAME/royayesabz" value="'+esc(A.repo)+'"'))+fld('atoken',T('توکن دسترسی','Access token'),inp('atoken','password','dir="ltr" autocomplete="off" value="'+esc(A.token)+'"'))+'<label class="chk"><input type="checkbox" id="aremember" checked> '+T('مرا در این دستگاه به خاطر بسپار','Remember me on this device')+'</label><div class="arow2"><button class="btn" id="alogin" type="button">'+T('ورود','Log in')+'</button></div><p class="anote" id="anote"></p></div>';
+  
   $('alogin').onclick=async function(){
    var repo=$('arepo').value.trim().replace(/^https?:\/\/github\.com\//,'').replace(/\/+$/,''),tok=$('atoken').value.trim();
    if(!repo||!tok)return note('مخزن و توکن را وارد کنید. / Enter the repository and token.',1);
