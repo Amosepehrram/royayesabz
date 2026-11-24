@@ -1,0 +1,88 @@
+[
+ {
+  "id": "lk1",
+  "deal": "buy",
+  "type": "tower",
+  "area": "damon",
+  "tfa": "کرانه، واحد ۲۰۰ متری",
+  "ten": "Karaneh, 200 m² unit",
+  "m2": 200,
+  "beds": "3",
+  "baths": "3",
+  "floor": "5",
+  "parking": "1",
+  "price": "",
+  "dfa": "واحدی ۲۰۰ متری در مجموعه کرانه با تراس و دسترسی به محوطه سرسبز.",
+  "den": "A 200 m² residence in Karaneh with a terrace and access to the landscaped grounds.",
+  "photos": [
+   "var:--i2",
+   "var:--i1"
+  ],
+  "sample": true,
+  "created": 4
+ },
+ {
+  "id": "lk2",
+  "deal": "buy",
+  "type": "tower",
+  "area": "damon",
+  "tfa": "دامون ساحلی ۱، واحد ۱۲۰ متری",
+  "ten": "Damon Saheli 1, 120 m² unit",
+  "m2": 120,
+  "beds": "2",
+  "baths": "2",
+  "floor": "8",
+  "parking": "1",
+  "price": "",
+  "dfa": "واحدی ۱۲۰ متری با بالکن رو به شهر و دریا.",
+  "den": "A 120 m² residence with a balcony facing the city and the sea.",
+  "photos": [
+   "var:--i4",
+   "var:--i5"
+  ],
+  "sample": true,
+  "created": 3
+ },
+ {
+  "id": "lk3",
+  "deal": "rent",
+  "type": "tower",
+  "area": "damon",
+  "tfa": "دامون ساحلی ۲، واحد ۷۰ متری",
+  "ten": "Damon Saheli 2, 70 m² unit",
+  "m2": 70,
+  "beds": "1",
+  "baths": "1",
+  "floor": "6",
+  "parking": "1",
+  "price": "",
+  "dfa": "واحدی ۷۰ متری در برج دامون ساحلی ۲.",
+  "den": "A 70 m² residence in the Damon Saheli 2 tower.",
+  "photos": [
+   "var:--i3"
+  ],
+  "sample": true,
+  "created": 2
+ },
+ {
+  "id": "lk4",
+  "deal": "buy",
+  "type": "penthouse",
+  "area": "damon",
+  "tfa": "دامون ساحلی ۲، پنت‌هاوس ۱۵۰ متری",
+  "ten": "Damon Saheli 2, 150 m² penthouse",
+  "m2": 150,
+  "beds": "3",
+  "baths": "2",
+  "floor": "12",
+  "parking": "1",
+  "price": "",
+  "dfa": "پنت‌هاوسی ۱۵۰ متری در طبقات بالای برج.",
+  "den": "A 150 m² penthouse on the upper floors of the tower.",
+  "photos": [
+   "var:--i3"
+  ],
+  "sample": true,
+  "created": 1
+ }
+]
